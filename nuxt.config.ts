@@ -9,7 +9,6 @@ export default defineNuxtConfig({
   
   app: {
     baseURL: '/Portifolio/', // baseURL: '/<repository>/'
-    buildAssetsDir: 'assets'
   //   head: {
   //     link: [
   //       { rel: "shortcut icon", type: "image/png", href: "/favicon.ico" }
