@@ -2,28 +2,41 @@
 </script>
 
 <template>
-    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar bg-dark navbar-expand-sm bg-body-tertiary fixed-top" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Portifólio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button @click="showNav" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-4">
-                    <a class="nav-link active" aria-current="page" href="#">Sobre mim</a>
-                    <a class="nav-link" href="#">Habilidades</a>
-                    <a class="nav-link" href="#">Projetos</a>
-                    <a class="nav-link">Contato</a>
+                    <a class="nav-link active" aria-current="page" href="#about-me">Sobre mim</a>
+                    <a class="nav-link" href="#technology-componet">Tecnologias</a>
+                    <a class="nav-link" href="#contact-componet">Contato</a>
                 </div>
             </div>
         </div>
     </nav>
 </template>
 
+<script lang="js">
+export default {
+    methods: {
+        showNav() {
+            const offcanvasNavbar = document.getElementById('navbarNavAltMarkup');
+            offcanvasNavbar.classList.toggle('show');
+        }
+    }
+};
+
+
+</script>
 
 <style scoped>
 .navbar {
     border-radius: 10px;
+    margin: 0px 10px;
 }
 </style>

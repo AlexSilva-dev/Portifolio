@@ -1,10 +1,12 @@
 <template>
     <div class="d-flex flex-column flex-md-row align-items-md-center">
         <div class="col">
-            <h1 class="apresentation-title">
+            <h1 class="apresentation-title text-center text-md-start">
                 Olá, eu sou <span class="apresentation-name">Alex</span>
             </h1>
-            <h2 class="apresentation-subtitle">Desenvolvedor Full-Stack</h2>
+            <h2 class="apresentation-subtitle text-center text-md-start">
+                Desenvolvedor Full-Stack
+            </h2>
         </div>
         <div class="align-items-end mx-auto mt-5">
             <div>
@@ -17,8 +19,8 @@
 <style>
 .profile-img {
     object-fit: cover;
-    width: 50vw;
-    height: 50vw;
+    width: 70vw;
+    height: 70vw;
 }
 
 .apresentation-name {

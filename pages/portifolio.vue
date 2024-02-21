@@ -1,15 +1,18 @@
 <template>
-    <div class="container my-5">
+    <div class="container my-5 pt-5">
         <Banner></Banner>
-        <AboutMe id="about-me"></AboutMe>
-        <Technology class="mt-5"></Technology>
-        <Contact class="mt-5"></Contact>
+        <AboutMe class="mt-300" id="about-me"></AboutMe>
+        <Technology class="mt-300"></Technology>
+        <Contact class="mt-300"></Contact>
     </div>
 </template>
 
 <style>
-#about-me {
-    margin-top: 200px;
+body {
+    padding-bottom: 30%;
+}
+.mt-300 {
+    margin-top: 300px;
 }
 </style>
 
