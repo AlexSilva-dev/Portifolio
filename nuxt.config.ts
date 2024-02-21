@@ -5,13 +5,15 @@ export default defineNuxtConfig({
     'bootstrap/dist/css/bootstrap.css',
     'bootstrap-icons/font/bootstrap-icons.css',
     '@/assets/main.css',
-
   ],
-  // app: {
+  
+  app: {
+    baseURL: '/Portifolio/', // baseURL: '/<repository>/'
+    buildAssetsDir: 'assets'
   //   head: {
   //     link: [
   //       { rel: "shortcut icon", type: "image/png", href: "/favicon.ico" }
   //     ]
   //   }
-  // },
+  },
 })
