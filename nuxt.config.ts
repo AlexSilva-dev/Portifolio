@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   ],
   
   app: {
-    baseURL: '/Portifolio/', // baseURL: '/<repository>/'
+    // baseURL: '/Portifolio/', // baseURL: '/<repository>/'
     buildAssetsDir: 'assets'
   //   head: {
   //     link: [
