@@ -12,7 +12,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-4">
-                    <a class="nav-link active" aria-current="page" href="#about-me">Sobre mim</a>
+                    <a id="nav-item-aboutme" class="nav-link active" aria-current="page" href="#about-me">Sobre mim</a>
                     <a class="nav-link" href="#technology-componet">Tecnologias</a>
                     <a class="nav-link" href="#contact-componet">Contato</a>
                 </div>

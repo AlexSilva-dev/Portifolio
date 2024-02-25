@@ -1,7 +1,7 @@
 <template>
     <div id="about-me" class="d-flex justify-content-center align-items-center">
         <div class="d-flex flex-column align-items-center">
-            <h2 class="mb-3">- Sobre mim -</h2>
+            <h1 class="mb-3">- Sobre mim -</h1>
             <p>Sou Alex, estudante de Sistemas de Informação na UFF com paixão por tecnologia
                 e determinação em me tornar um desenvolvedor Full Stack.
             </p>
