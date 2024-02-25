@@ -2,17 +2,14 @@
     <div class="container my-5 pt-5">
         <Banner></Banner>
         <AboutMe class="mt-300" id="about-me" data-aos="fade-up-left"
-            data-aos-duration="600" data-aos-anchor-placement="bottom-bottom"
-            data-aos-offset="100" v-on:intersection="activateNavbarItem"
-            data-navbar="nav-item-aboutme">
+            data-aos-duration="700" data-aos-offset="100"
+            v-on:intersection="activateNavbarItem" data-navbar="nav-item-aboutme">
         </AboutMe>
 
-        <Technology class="mt-300" data-aos="fade-up-right"
-            data-aos-anchor-placement="bottom-bottom" data-aos-duration="600">
+        <Technology class="mt-300" data-aos="fade-up-right" data-aos-duration="700">
         </Technology>
 
-        <Contact class="mt-300" data-aos="fade-up"
-            data-aos-anchor-placement="bottom-bottom" data-aos-duration="600">
+        <Contact class="mt-300" data-aos="fade-up" data-aos-duration="700">
         </Contact>
     </div>
 </template>
@@ -23,7 +20,7 @@ export default {
     },
     methods: {
         activateNavbarItem(entries, observer) {
-            
+
         }
     }
 }
@@ -34,7 +31,7 @@ body {
 }
 
 .mt-300 {
-    margin-top: 300px;
+    margin-top: 60vh;
 }
 </style>
 

@@ -38,5 +38,6 @@ export default {
 .navbar {
     border-radius: 10px;
     margin: 0px 10px;
+    max-width: 100%;
 }
 </style>
