@@ -2,20 +2,19 @@
     <div id="about-me" class="d-flex justify-content-center align-items-center">
         <div class="d-flex flex-column align-items-center">
             <h1 class="mb-3">- Sobre mim -</h1>
-            <p>Sou Alex, estudante de Sistemas de Informação na UFF com paixão por tecnologia
-                e determinação em me tornar um desenvolvedor Full Stack.
+            <p>
+                Desenvolvedor Full Stack em formação
+                Estudante de Sistemas de Informação na UFF, apaixonado por tecnologia e determinado a me tornar um
+                desenvolvedor Full Stack.
+
+                Adoro código limpo e organizado, e em projetos pessoais uso Spring com Kotlin no back-end.
+
+                Estou sempre buscando novas tecnologias, expandindo meu conhecimento e encarando desafios na área de
+                desenvolvimento.
             </p>
 
             <p>
-                Além disso, sou apaixonado por código limpo e organizado. Em projetos pessoais, gosto de usar Spring com
-                Kotlin como back end.
-            </p>
-
-            <p>
-                Estou entusiasmado em continuar explorando novas tecnologias,
-                expandindo meu conhecimento e enfrentando desafios emocionantes
-                na área de desenvolvimento.
-                <span>Seja bem-vindo ao meu universo digital! 😊✨</span>
+                Seja bem-vindo ao meu universo digital! 😊✨
             </p>
         </div>
     </div>

@@ -9,6 +9,8 @@
         <Technology class="mt-300" data-aos="fade-up-right" data-aos-duration="700">
         </Technology>
 
+        <Projects/>
+
         <Contact class="mt-300" data-aos="fade-up" data-aos-duration="700">
         </Contact>
     </div>
