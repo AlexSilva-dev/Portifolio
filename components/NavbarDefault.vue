@@ -14,6 +14,7 @@
                 <div class="navbar-nav ms-4">
                     <a id="nav-item-aboutme" class="nav-link active" aria-current="page" href="#about-me">Sobre mim</a>
                     <a class="nav-link" href="#technology-componet">Tecnologias</a>
+                    <a class="nav-link" href="#my-projects">Projetos</a>
                     <a class="nav-link" href="#contact-componet">Contato</a>
                 </div>
             </div>

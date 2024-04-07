@@ -7,24 +7,24 @@ import imgApiJava from '@/assets/img/code.webp';
 const DATA = {
     mataMosquisto: {
         title: 'Mata Mosquito',
-        description: 'Esse projeto é um jogo desenvolvido em JS,' +
-            'para consolidar meus conhecimentos em JavaScript.',
+        description: 'Esse jogo foi desenvolvido para aprimorar e consolidar ' +
+            'as minhas habilidades em HTML, CSS e JavaScript',
         developing: false,
         repositoryLink: 'https://github.com/AlexSilva-dev/jogo-mata_mosquito',
         imageSource: mataMosquisto
     },
     instagramBot: {
         title: 'InstagramBot',
-        description: 'Esse projeto é um jogo desenvolvido em JS,' +
-            'para consolidar meus conhecimentos em JavaScript.',
+        description: 'Esse projeto é uma automoção desenvolvida em Python,' +
+            ' que tem como objetivo envia mensagens para perfis públicos do Instagram encontrados em páginas web.',
         developing: false,
         repositoryLink: 'https://github.com/AlexSilva-dev/InstagramBot',
         imageSource: imgInstagramBot
     },
     unifyEventos: {
         title: 'Unify Eventos',
-        description: 'Esse projeto é um jogo desenvolvido em JS,' +
-            'para consolidar meus conhecimentos em JavaScript.',
+        description: 'Esse projeto é uma plataforma de divulgação de eventos,' +
+            'os frameworks usados são Nuxt.JS e Spring com Kotlin.',
         developing: true,
         repositoryLink: '',
         imageSource: imgUnifyEventos,
@@ -32,8 +32,9 @@ const DATA = {
     },
     apiJava: {
         title: 'Java API',
-        description: 'Esse projeto é um jogo desenvolvido em JS,' +
-            'para consolidar meus conhecimentos em JavaScript.',
+        description: 'Esse projeto foi uma atividade da UFF,' +
+            'no intuito de consolidar nossos conhecimentos de desenvolvimento web.' +
+            '(atividade em grupo)',
         developing: true,
         repositoryLink: 'https://github.com/AlexSilva-dev/trabalho-dev-web-avancado',
         imageSource: imgApiJava
@@ -42,7 +43,7 @@ const DATA = {
 </script>
 <template>
     <div id="projects-component" class="text-center">
-        <h1 class="h2">- Meus projetos -</h1>
+        <h1 id="my-projects" class="h2 mb-5">- Meus projetos -</h1>
         <div class="container">
             <div id="list-projects" class="row gap-5">
                 <Project class="col p-auto d-flex align-items-center justify-content-center"

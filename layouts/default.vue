@@ -4,9 +4,15 @@ import NavbarDefault from '../components/NavbarDefault.vue';
     <header class="px-5">
         <NavbarDefault></NavbarDefault>
     </header>
-    <main class="px-5">
+    <main class="px-5 xscroll-hidden">
         <slot></slot>
     </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+.xscroll-hidden {
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+</style>

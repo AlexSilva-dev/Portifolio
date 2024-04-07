@@ -2,26 +2,39 @@
     <div id="about-me" class="d-flex justify-content-center align-items-center">
         <div class="d-flex flex-column align-items-center">
             <h1 class="mb-3">- Sobre mim -</h1>
-            <p>
-                Desenvolvedor Full Stack em formação
-                Estudante de Sistemas de Informação na UFF, apaixonado por tecnologia e determinado a me tornar um
-                desenvolvedor Full Stack.
 
-                Adoro código limpo e organizado, e em projetos pessoais uso Spring com Kotlin no back-end.
+            <div class="row">
+                <div class="col">
+                    <p>
+                        A tecnologia sempre me fascinou, e essa paixão me impulsiona a buscar constantemente novos
+                        conhecimentos e aprimorar minhas habilidades na área de desenvolvimento.
+                    </p>
 
-                Estou sempre buscando novas tecnologias, expandindo meu conhecimento e encarando desafios na área de
-                desenvolvimento.
-            </p>
+                    <p class="mb-2">Meus objetivos:</p>
+                    <ul class="">
+                        <li>Aprofundar meus conhecimentos em ferramentas de front-end e back-end.</li>
+                        <li>Desenvolver projetos desafiadores.</li>
+                        <li>E buscando melhorar meu código para ser limpo e organizado.</li>
+                    </ul>
 
-            <p>
-                Seja bem-vindo ao meu universo digital! 😊✨
+                    <p class="mt-3">
+                        Estou sempre buscando oportunidades para aprimorar minhas habilidades e contribuir para o
+                        sucesso de projetos inovadores.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <p class="mt-5">
+                Seja bem-vindo ao meu cantinho digital! 😊✨
             </p>
         </div>
     </div>
 </template>
 
 <style>
-p {
+p, li{
     font-size: x-large;
 }
 </style>

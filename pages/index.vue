@@ -1,18 +1,24 @@
 <template>
     <div class="container my-5 pt-5">
         <Banner></Banner>
-        <AboutMe class="mt-300" id="about-me" data-aos="fade-up-left"
+        <AboutMe class="vh-60" id="about-me" data-aos="fade-up-left"
             data-aos-duration="700" data-aos-offset="100"
             v-on:intersection="activateNavbarItem" data-navbar="nav-item-aboutme">
         </AboutMe>
 
-        <Technology class="mt-300" data-aos="fade-up-right" data-aos-duration="700">
+        <Technology class="vh-60" data-aos="fade-up-right" data-aos-duration="700">
         </Technology>
 
-        <Projects/>
+        <Projects class="vh-60" data-aos="fade-down-left" data-aos-duration="700"/>
 
-        <Contact class="mt-300" data-aos="fade-up" data-aos-duration="700">
+        <Contact class="vh-60" data-aos="fade-up" data-aos-duration="700">
         </Contact>
+
+        <div class="vh-20 text-center py-5">
+            <small class="used-framework">
+                Desenvolvido com Nuxt.JS
+            </small>
+        </div>
     </div>
 </template>
 <script lang="js">
@@ -29,11 +35,19 @@ export default {
 </script>
 <style>
 body {
-    padding-bottom: 30%;
+    padding-bottom: 10%;
 }
 
-.mt-300 {
+.vh-60 {
     margin-top: 60vh;
+}
+
+.vh-20 {
+    margin-top: 20vh;
+}
+
+.used-framework {
+    filter: brightness(50);
 }
 </style>
 

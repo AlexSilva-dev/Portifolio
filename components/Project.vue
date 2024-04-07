@@ -5,17 +5,19 @@
             v-on:click="openModal=true" :style="{ backgroundImage: `url(${imageSource})` }">
 
             <span id="title" class="h4 z-1">{{ title }}</span>
-            <p class="description">{{ description }}</p>
+            <p class="description py-1">{{ description }}</p>
         </div>
 
 
         <div id="project-modal" v-show="openModal" @click.outside="handleClickOutside">
-            <div class="card text-bg-dark">
+            <div class="card text-bg-dark desk">
                 <img v-bind:src="imageSource" class="card-img" :alt="title">
-                <div class="card-img-overlay text-start d-flex flex-column">
+
+                <div class="card-img-overlay text-start d-flex flex-column
+                    animate__animated animate__slideInUp animate__fadeOutUp">
+
                     <h5 class="card-title">{{ title }}</h5>
                     <p class="card-text mt-4">{{ description }}</p>
-
                     <footer class="status mt-auto row">
                         <div class="col"></div>
                         <div class="col text-center">
@@ -31,11 +33,33 @@
                         </div>
                     </footer>
                 </div>
-
             </div>
+
+            <div class="card text-bg-dark mb-3 mobile
+                animate__animated animate__slideInUp animate__fadeOutUp">
+                <img v-bind:src="imageSource" class="card-img-top" :alt="title">
+                <div class="card-body">
+                    <h5 class="card-title">{{ title }}</h5>
+                    <p class="card-text">{{ description }}</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+                <div class="card-footer bg-transparent row gap-1">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4 col-12 text-center pb-2">
+                        <a class="btn btn-outline-secondary" :href="repositoryLink"
+                        target="_blank" v-show="openSource">
+                            Repositório <i class="bi bi-github"></i>
+                        </a>
+                    </div>
+                    <div class="col-md-4 col-12 text-center d-flex flex-column">
+                        <small class="my-auto" v-show="developing">
+                            Em desenvolvimento
+                        </small>
+                    </div>
+                </div>
+            </div>
+            
         </div>
-
-
     </div>
 </template>
 
@@ -110,7 +134,7 @@ export default {
 }
 
 .project .description {
-    font-size: medium;
+    font-size: 90%;
     display: none;
 }
 
@@ -163,12 +187,62 @@ export default {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.card .card-text {
+    font-size: x-large;
+}
+
 .card {
-    max-width: 60vw;
-    max-height: 60vw;
+    max-width: 50vw;
+    max-height: 50vw;
 }
 
 .card-img {
-    filter: brightness(0.25);
+    filter: brightness(0.18);
+}
+
+.mobile {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .desk {
+        display: none;
+    }
+
+    .mobile {
+        display: initial;
+    }
+
+    .card {
+        max-height: 90vh;
+        max-width: max-content;
+        margin: 0px 30px;
+        margin-top: 10vh;
+
+    }
+
+    .card .card-text {
+        font-size: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 1060px)
+    and (min-width: 768px) {
+
+    .card {
+        max-width: 60vw;
+        max-height: 60vw;
+    }
+}
+
+.fade-enter-active {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-leave-active {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
 }
 </style>
