@@ -1,8 +1,8 @@
 <template>
     <div>
         <div class="d-flex align-items-center
-            justify-content-center project frameProject"
-            v-on:click="openModal=true" :style="{ backgroundImage: `url(${imageSource})` }">
+            justify-content-center project frameProject" v-on:click="openModal = true"
+            :style="{ backgroundImage: `url(${imageSource})` }">
 
             <span id="title" class="h4 z-1">{{ title }}</span>
             <p class="description py-1">{{ description }}</p>
@@ -21,8 +21,7 @@
                     <footer class="status mt-auto row">
                         <div class="col"></div>
                         <div class="col text-center">
-                            <a class="btn btn-dark" :href="repositoryLink"
-                            target="_blank" v-show="openSource">
+                            <a class="btn btn-dark" :href="repositoryLink" target="_blank" v-show="openSource">
                                 Repositório <i class="bi bi-github"></i>
                             </a>
                         </div>
@@ -41,13 +40,14 @@
                 <div class="card-body">
                     <h5 class="card-title">{{ title }}</h5>
                     <p class="card-text">{{ description }}</p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                    <p class="card-text">
+                        <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </p>
                 </div>
                 <div class="card-footer bg-transparent row gap-1">
                     <div class="col-md-4"></div>
                     <div class="col-md-4 col-12 text-center pb-2">
-                        <a class="btn btn-outline-secondary" :href="repositoryLink"
-                        target="_blank" v-show="openSource">
+                        <a class="btn btn-outline-secondary" :href="repositoryLink" target="_blank" v-show="openSource">
                             Repositório <i class="bi bi-github"></i>
                         </a>
                     </div>
@@ -58,7 +58,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </template>
@@ -203,6 +203,7 @@ export default {
 .mobile {
     display: none;
 }
+
 @media screen and (max-width: 768px) {
     .desk {
         display: none;
@@ -227,8 +228,7 @@ export default {
 }
 
 
-@media screen and (max-width: 1060px)
-    and (min-width: 768px) {
+@media screen and (max-width: 1060px) and (min-width: 768px) {
 
     .card {
         max-width: 60vw;
