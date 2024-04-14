@@ -9,7 +9,7 @@
         <Technology class="vh-60" data-aos="fade-up-right" data-aos-duration="700">
         </Technology>
 
-        <Projects class="vh-60" data-aos="fade-down-left" data-aos-duration="700"/>
+        <Projects class="vh-60" data-aos="fade-up-left" data-aos-duration="700"/>
 
         <Contact class="vh-60" data-aos="fade-up" data-aos-duration="700">
         </Contact>
