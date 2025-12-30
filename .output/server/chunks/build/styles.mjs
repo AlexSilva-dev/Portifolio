@@ -10,10 +10,8 @@ const styles = {
   "../node_modules/nuxt/dist/app/components/error-500.vue?vue&type=style&index=0&scoped=8851f357&lang.css": () => import('./error-500-styles.Dw-4YpQp.mjs').then(interopDefault),
   "components/PongLoader.vue": () => import('./PongLoader-styles._Z_T4j8K.mjs').then(interopDefault),
   "components/PongLoader.vue?vue&type=style&index=0&scoped=5f8854e5&lang.css": () => import('./PongLoader-styles._Z_T4j8K.mjs').then(interopDefault),
-  "components/Alert.vue": () => import('./Alert-styles.DfqdUCa1.mjs').then(interopDefault),
-  "components/Counter.vue": () => import('./Counter-styles.Bljr1HJJ.mjs').then(interopDefault),
-  "components/Counter.vue?vue&type=style&index=0&scoped=5c5d582e&lang.css": () => import('./Counter-styles.Bljr1HJJ.mjs').then(interopDefault),
-  "components/Alert.vue?vue&type=style&index=0&scoped=46dbbe98&lang.css": () => import('./Alert-styles.DfqdUCa1.mjs').then(interopDefault)
+  "components/home/components/SkillsGraph.vue": () => import('./SkillsGraph-styles.DdYILbQF.mjs').then(interopDefault),
+  "components/home/components/SkillsGraph.vue?vue&type=style&index=0&scoped=4d503a0a&lang.css": () => import('./SkillsGraph-styles.DdYILbQF.mjs').then(interopDefault)
 };
 
 export { styles as default };
