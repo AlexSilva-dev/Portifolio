@@ -1,1 +1,0 @@
-export { default } from "file:///home/Lek/Development/MyCode/MyProjects/portfolio/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
